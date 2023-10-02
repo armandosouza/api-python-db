@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from pprint import pprint
 
-client = MongoClient("mongodb+srv://multicodelab:multi123lab@cluster0.wg1jssh.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://multicodelab:<password>@cluster0.wg1jssh.mongodb.net/?retryWrites=true&w=majority")
 db = client.pymongo
 collection = db.bank
 
